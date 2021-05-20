@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "./component/About/About";
 import Contact from "./component/Contact/Contact";
 import NoMatch from "./component/NoMatch/NoMatch";
+import Project from "./component/Project/Project";
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
           </Route>
           <Route path='/about'>
             <About></About>
+          </Route>
+          <Route path='/project'>
+            <Project></Project>
           </Route>
           <Route path='/contact'>
             <Contact></Contact>
