@@ -1,0 +1,14 @@
+img{
+    height: 100vh;
+    width: 100%;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    opacity: 1;
+    background: #d5c455;
+    z-index: -1;
+}

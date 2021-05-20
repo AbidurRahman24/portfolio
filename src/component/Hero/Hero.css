@@ -1,0 +1,42 @@
+#section-header{
+    display:block;
+    overflow: hidden;
+    
+}
+.hero-wrap {
+        height: 100vh;
+        min-height: 100%;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        z-index: 0;
+        overflow: hidden;
+        display: block
+    }
+.Hero-header{
+    height: 100vh;
+    min-height: 100%;
+    margin: 100px 0 0px 0;
+    top: 30px auto;
+    bottom: 30px auto;
+}
+h3 .helloIam{
+    font-size:70px;
+}
+.typed-edit{
+    font-size: 56px;
+}
+.btn-hire-me{
+    color: #000 !important;
+    background: #fff !important;
+    margin: 10px;
+}
+.hero-copyright {
+    font-size: 14px;
+    margin-top: 100px;
+  }
+.overlay{
+    background: red;
+}
