@@ -5,6 +5,7 @@ import About from "./component/About/About";
 import Contact from "./component/Contact/Contact";
 import NoMatch from "./component/NoMatch/NoMatch";
 import Project from "./component/Project/Project";
+import NewsDetails from "./component/NewsDetails/NewsDetails";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route path='/project'>
             <Project></Project>
+          </Route>
+          <Route path='news/:id'>
+            <NewsDetails />
           </Route>
           <Route path='/contact'>
             <Contact></Contact>

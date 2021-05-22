@@ -8,18 +8,20 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import { Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    maxWidth: 340,
+    margin: '10px',
+    float: 'right'
   },
   media: {
-    height: 140,
+    height: 135,
   },
 });
 
 const News = (props) => {
-  console.log(props.news);
   const classes = useStyles();
   const { title, description, urlToImage } = props.news;
   return (
@@ -34,7 +36,9 @@ const News = (props) => {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
-              {title}
+            <Link to={`/news/${title}`}>{title}</Link>
+
+              
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
               {description}
@@ -46,7 +50,8 @@ const News = (props) => {
             Share
           </Button>
           <Button size="small" color="primary">
-            Learn More
+          <Link to={`/news/${title}`}>Learn More</Link>
+            
           </Button>
         </CardActions>
       </Card>
