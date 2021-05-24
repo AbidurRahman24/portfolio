@@ -9,7 +9,7 @@ import NewsDetails from "./component/NewsDetails/NewsDetails";
 
 function App() {
   return (
-    <div>
+    <div className='App-header '>
       <Header />
       <Router>
         <Switch>

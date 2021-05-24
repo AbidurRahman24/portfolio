@@ -4,7 +4,9 @@ import image1 from '../picture/header1.jpg'
 
 const HeaderImage = () => {
     const imageColer = {
-        background: '#D4C355'
+        background: '#D4C355',
+        width: '100%',
+        hight:'100%'
     }
     return (
         <div className={imageColer}>

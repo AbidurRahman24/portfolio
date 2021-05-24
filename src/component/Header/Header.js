@@ -5,7 +5,7 @@ import { Col, Container, Nav, Navbar, NavDropdown, Row } from "react-bootstrap";
 const Header = () => {
   return (
     <div>
-      <Container>
+      <Container >
         <Row>
           <Col xs={12}>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">

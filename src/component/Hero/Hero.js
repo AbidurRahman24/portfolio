@@ -11,17 +11,19 @@ const Hero = () => {
     <div id='section-header'>
       <Container className='hero-wrap'>
         <Row>
-          <Col>
+          <Col md={6} sm={12}>
             <div className="Hero-header">
-              <h3 className='hero-header-h3 helloIam'>Hello, I'm </h3>
+              <h1 className='hero-header-h3 helloIam'>Hello, my name is </h1>
+              <h2 className='name'>Abidur Niloy</h2>
+              And I'm a 
               <div className="typed-edit">
+               
                 <Typed
-                  strings={[
-                    "Abidur Niloy",
-                    "React Learner",
-                    "Junior Front End Developer",
-                    "Programmer Dreamer",
-                    "ERROR Lover",
+                  strings={[ 
+                    " React Learner",
+                    " Jr Front End Developer",
+                    " Programmer Dreamer",
+                    " ERROR Lover",
                   ]}
                   typeSpeed={100}
                   backSpeed={50}
@@ -48,7 +50,7 @@ const Hero = () => {
               </div>
             </div>
           </Col>
-          <Col >
+          <Col md={6} sm={12}>
             <HeaderImage />
           </Col>
         </Row>

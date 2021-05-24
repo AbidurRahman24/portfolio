@@ -40,3 +40,8 @@ h3 .helloIam{
 .overlay{
     background: red;
 }
+.name{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
