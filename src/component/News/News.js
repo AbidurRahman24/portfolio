@@ -7,17 +7,16 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
-import { Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Col, Container, Row } from "react-bootstrap";
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 340,
+    maxWidth: 350,
     margin: '10px',
     float: 'right'
   },
   media: {
-    height: 135,
+    height: 120,
   },
 });
 
@@ -27,7 +26,9 @@ const News = (props) => {
   return (
     <div>
       <Container>
-      <Card className={classes.root}>
+        <Row>
+          <Col md={8} sm={12}>
+          <Card className={classes.root}>
         <CardActionArea>
           <CardMedia
             className={classes.media}
@@ -35,11 +36,7 @@ const News = (props) => {
             title="Contemplative Reptile"
           />
           <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
-            <Link to={`/news/${title}`}>{title}</Link>
-
-              
-            </Typography>
+            <Typography gutterBottom variant="h5" component="h2">{title}</Typography>
             <Typography variant="body2" color="textSecondary" component="p">
               {description}
             </Typography>
@@ -49,12 +46,13 @@ const News = (props) => {
           <Button size="small" color="primary">
             Share
           </Button>
-          <Button size="small" color="primary">
-          <Link to={`/news/${title}`}>Learn More</Link>
-            
-          </Button>
+          <Button size="small" color="primary">Learn More</Button>
         </CardActions>
       </Card>
+          </Col>
+          <Col md={4} sm={12}>
+          </Col>
+        </Row>
       </Container>
     </div>
   );
