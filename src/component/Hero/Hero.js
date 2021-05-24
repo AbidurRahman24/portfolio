@@ -23,8 +23,10 @@ const Hero = () => {
                   strings={[  
                     " React Learner",
                     " Javascript Learner",
-                    " Programmer Lover",
+                    "Next JS Learner",
+                    " Project Practice",
                     " ERROR Lover",
+                    "Practice Code"
                   ]}
                   typeSpeed={100}
                   backSpeed={50}
