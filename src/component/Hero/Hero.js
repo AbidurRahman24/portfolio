@@ -23,7 +23,6 @@ const Hero = () => {
                   strings={[  
                     " React Learner",
                     " Javascript Learner",
-                    "Next JS Learner",
                     " Project Practice",
                     " ERROR Lover",
                     "Practice Code"
