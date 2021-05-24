@@ -9,7 +9,7 @@ const Header = () => {
         <Row>
           <Col xs={12}>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-              <Navbar.Brand href="/home">Abidur Niloy</Navbar.Brand>
+              <Navbar.Brand href="/home" >Abidur Niloy</Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav d-flex justify-content-end" className='justify-content-end float-right'>
                 <Nav className="mr-auto navbar-link justify-content-end " variant="danger">

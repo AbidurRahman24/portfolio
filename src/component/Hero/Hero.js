@@ -15,14 +15,15 @@ const Hero = () => {
             <div className="Hero-header">
               <h1 className='hero-header-h3 helloIam'>Hello, my name is </h1>
               <h2 className='name'>Abidur Niloy</h2>
-              And I'm a 
+              
+              <span className='typed-name-para'>And I'm a</span>
               <div className="typed-edit">
                
                 <Typed
-                  strings={[ 
+                  strings={[  
                     " React Learner",
-                    " Jr Front End Developer",
-                    " Programmer Dreamer",
+                    " Javascript Learner",
+                    " Programmer Lover",
                     " ERROR Lover",
                   ]}
                   typeSpeed={100}
@@ -43,12 +44,13 @@ const Hero = () => {
                   {" "}
                   HIRE ME <ArrowRightAltIcon />
                 </Button>
-                <p className='hero-copyright'>
+               
+            </div>
+            <p className='hero-copyright'>
                   Copyright ©2021 All rights reserved | This template is made
                   with by NIloy
                 </p>
               </div>
-            </div>
           </Col>
           <Col md={6} sm={12}>
             <HeaderImage />
