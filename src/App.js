@@ -5,6 +5,7 @@ import About from "./component/About/About";
 import Contact from "./component/Contact/Contact";
 import NoMatch from "./component/NoMatch/NoMatch";
 import Project from "./component/Project/Project";
+import Service from "./component/Service/Service";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route path='/project'>
             <Project></Project>
+          </Route>
+          <Route path='/service'>
+            <Service/>
           </Route>
           <Route path='/contact'>
             <Contact></Contact>

@@ -11,7 +11,7 @@ const Hero = () => {
     <div id='section-header'>
       <Container className='hero-wrap'>
         <Row>
-          <Col md={6} sm={12}>
+          <Col md={6} >
             <div className="Hero-header">
               <h1 className='hero-header-h3 helloIam'>Hello, my name is </h1>
               <h2 className='name'>Abidur Niloy</h2>
@@ -54,7 +54,7 @@ const Hero = () => {
                 </p>
               </div>
           </Col>
-          <Col md={6} sm={12}>
+          <Col md={6}>
             <HeaderImage />
           </Col>
         </Row>
